@@ -3,8 +3,9 @@ body {
     overflow: hidden;
     /* Background: Radial gradient di tengah (pink bulat) + linear gradient luar (pink ke putih halus) */
     background: 
-        radial-gradient(circle at center, #ff69b4 30%, transparent 70%), /* Tengah pink bulat */
-        linear-gradient(to bottom, #ffb6c1 0%, #ffffff 100%); /* Luar pink ke putih halus */
+        background: 
+    radial-gradient(circle at center, #0000ff 30%, transparent 70%), /* Tengah biru bulat */
+    linear-gradient(to bottom, #8a2be2 0%, #ffffff 100%); /* Luar ungu ke putih halus */
     height: 100vh;
     position: relative;
 }
