@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hujan Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hearts-container"></div>
+    
+    <!-- Div 1: Ucapan Valentine, gif, tombol -->
+    <div id="div1" class="interactive-div">
+        <h1>Happy Valentine's Day!</h1>
+        <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUya2t4M2s1Mml1NTRrNDI0c3p4aW5rdjc5aWlqOXh5bTN1aTU4NzBvdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sNPeJFq6YNEvLZdcqX/giphy.gif" alt="Fist Gif" class="cute-gif">
+        <button id="btn1">Tekan Aku</button>
+    </div>
+    
+    <!-- Div 2: Play lagu, tulisan, tombol lanjut -->
+    <div id="div2" class="interactive-div hidden">
+        <audio id="song" controls>
+            <source src="Alexandra - Reality Club.mp3" type="audio/mpeg"> <!-- Ganti src dengan path file lagu "Alexandria" Reality Club -->
+            Your browser does not support the audio element.
+        </audio>
+        <p>This is your favorite song...</p>
+        <button id="btn2">Lanjut</button>
+    </div>
+    
+    <!-- Div 3: Pertanyaan nama, textbox, submit -->
+    <div id="div3" class="interactive-div hidden">
+        <h2>Siapa nama mu?...</h2>
+        <input type="text" id="name-input" placeholder="Tulis nama kamu di sini...">
+        <button id="btn3">Submit</button>
+    </div>
+    
+    <!-- Div 4: Ucapan terima kasih -->
+    <div id="div4" class="interactive-div hidden">
+        <h1>Terima Kasih, [Nama]!</h1>
+        <p>Semoga hari Valentine-mu indah. ❤️</p>
+        <button id="btn4">Lanjut</button> <!-- Tambah tombol untuk lanjut ke div5 -->
+    </div>
+    
+    <!-- Div 5: Pertanyaan harapan, textbox, submit -->
+    <div id="div5" class="interactive-div hidden">
+        <h2>Bagaimana harapan mu ke depannya?...</h2>
+        <input type="text" id="hope-input" placeholder="Tulis harapan kamu di sini...">
+        <button id="btn5">Submit</button>
+    </div>
+    
+    <!-- Div 6: Nama + ucapan random -->
+    <div id="div6" class="interactive-div hidden">
+        <h1>[Nama], [Ucapan Random]!</h1>
+        <p>Semoga harapanmu segera terwujud. ❤️</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
